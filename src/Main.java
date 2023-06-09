@@ -40,7 +40,7 @@ public class Main {
                 try {
                     res += Integer.parseInt(array[i][j]);
                 } catch (Exception e) {
-                    throw new MyArrayDataException(String.format("\n элемент '%s' не цифра", array[i][j]));
+                    throw new MyArrayDataException(String.format("\nэлемент с индексом ['%d'],['%d'] не цифра", i,j));
                 }
             }
         }
